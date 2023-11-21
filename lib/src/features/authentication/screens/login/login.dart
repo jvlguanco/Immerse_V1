@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_any_logo/flutter_logo.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../common/styles/spacing_styles.dart';
 import '../../../../utils/constants/sizes.dart';
 import '../../../../utils/constants/texts.dart';
+import '../signup/signup.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -96,7 +98,7 @@ class LoginScreen extends StatelessWidget {
                       SizedBox(
                         width: double.infinity,
                         child: TextButton(
-                          onPressed: () {}, 
+                          onPressed: () => Get.to(const SignupScreen()), 
                           child: const Text("Create Account")
                         ),
                       ),
