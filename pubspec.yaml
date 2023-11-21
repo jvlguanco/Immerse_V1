@@ -45,6 +45,7 @@ dependencies:
   logger: ^2.0.2+1
   url_launcher: ^6.2.1
   get_storage: ^2.1.1
+  flutter_native_splash: ^2.3.6
 
 dev_dependencies:
   flutter_test:
