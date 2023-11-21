@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
+import 'src/features/authentication/screens/Achievement/achievement.dart';
 import 'src/features/authentication/screens/explore/explore.dart';
+import 'src/features/authentication/screens/profile/profile.dart';
 
 class NavigationMenu extends StatelessWidget {
   const NavigationMenu({super.key});
@@ -25,8 +27,8 @@ class NavigationMenu extends StatelessWidget {
               label: 'Explore',
             ),
             NavigationDestination(
-              icon: Icon(Iconsax.scan),
-              label: 'Scan',
+              icon: Icon(Iconsax.star),
+              label: 'Achievements',
             ),
             NavigationDestination(
               icon: Icon(Iconsax.user),
@@ -46,7 +48,7 @@ class NavigationController extends GetxController {
   
   final screens = [
     const ExploreScreen(),
-    Container(color: Colors.green),
-    Container(color: Colors.yellow)
+    const AchievementScreen(),
+    const ProfileScreen()
   ];
 }
