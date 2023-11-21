@@ -8,6 +8,8 @@ class TColors {
   static const Color secondaryColor2 = Color(0xFF009B72);
   static const Color secondaryColor3 = Color(0xFF009DDC);
 
+  static const Color dark = Color(0xFF000000);
+
   static const Color succerssColor = Color(0xFF84E1BC);
   static const Color warningColor = Color(0xFFFACA15);
   static const Color errorColor = Color(0xFFF8B4B4);

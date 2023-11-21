@@ -38,4 +38,9 @@ class TSizes {
   static const double button_height = 18.0; 
   static const double button_width = 120.0;
   static const double button_radius = 12.0;
+
+  // Default Spacing
+  static const double defaultSpacing = 24.0;
+  static const double spaceBtwItems = 16.0;
+  static const double spaceBtwSections = 32.0;
 }
