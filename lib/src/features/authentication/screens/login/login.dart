@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_any_logo/flutter_logo.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:immerse/navigation_menu.dart';
 
 import '../../../../common/styles/spacing_styles.dart';
 import '../../../../utils/constants/sizes.dart';
@@ -87,7 +88,7 @@ class LoginScreen extends StatelessWidget {
                       SizedBox(
                         width: double.infinity,
                         child: ElevatedButton(
-                          onPressed: () {}, 
+                          onPressed: () => Get.to(const NavigationMenu()), 
                           child: const Text("Sign In")
                         ),
                       ),
