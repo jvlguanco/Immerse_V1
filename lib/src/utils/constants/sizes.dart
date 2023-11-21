@@ -43,4 +43,7 @@ class TSizes {
   static const double defaultSpacing = 24.0;
   static const double spaceBtwItems = 16.0;
   static const double spaceBtwSections = 32.0;
+
+  // App Bar
+  static const double appBarHeight = 56.0;
 }

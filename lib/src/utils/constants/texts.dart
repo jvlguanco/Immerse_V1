@@ -1,4 +1,7 @@
 class TText {
+  static const String appName = 'IMMERSE';
+  static const String appSlogan = 'Immerse yourself more in museums using your phone';
+
   static const String onboardingTitle1 = 'Immerse yourself more in museums using your phone';
   static const String onboardingTitle2 = 'Collect awards by scanning the artworks with NFCs when visiting museums';
   static const String onboardingTitle3 = 'Automatically look back on your museum visits';
