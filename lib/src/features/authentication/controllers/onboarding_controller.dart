@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../screens/login/login.dart';
+
 class OnBoardingController extends GetxController {
   static OnBoardingController get instance => Get.find();
 
@@ -24,7 +26,7 @@ class OnBoardingController extends GetxController {
       int page = currentPageIndex.value + 1;
       pageController.jumpToPage(page);
     } else {
-      // Get.to(LoginScreen());
+      Get.offAll(const LoginScreen());
     }
   }
 }
