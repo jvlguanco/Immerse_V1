@@ -15,4 +15,7 @@ class TImages {
   static const String content1 = 'assets/images/achievement/tutup.jpeg';
   static const String content2 = 'assets/images/achievement/boras.jpeg';
   static const String content3 = 'assets/images/achievement/tiyataan.jpeg';
+
+  static const String spoliarium = 'assets/images/Spoliarium.jpg';
+  static const String juan = 'assets/images/juan.jpg';
 }
