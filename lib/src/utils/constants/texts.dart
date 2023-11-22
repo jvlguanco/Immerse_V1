@@ -1,5 +1,5 @@
 class TText {
-  static const String appName = 'IMMERSE';
+  static const String appName = 'IMMERSE PH';
   static const String appSlogan = 'Immerse yourself more in museums using your phone';
 
   static const String onboardingTitle1 = 'Immerse yourself more in museums using your phone';

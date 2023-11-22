@@ -33,12 +33,12 @@ class OnboardingScreen extends StatelessWidget {
                 subtitle: TText.onboardingSubtitle1,
               ),
               OnBoardingPage(
-                image: TImages.intro1,
+                image: TImages.intro2,
                 title: TText.onboardingTitle2,
                 subtitle: TText.onboardingSubtitle2,
               ),
               OnBoardingPage(
-                image: TImages.intro1,
+                image: TImages.intro3,
                 title: TText.onboardingTitle3,
                 subtitle: TText.onboardingSubtitle3,
               ),

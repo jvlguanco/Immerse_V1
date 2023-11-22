@@ -13,15 +13,24 @@ class OnBoardingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(TSizes.defaultSpacing),
+      padding: const EdgeInsets.only(
+        top: 70,
+        left: 20,
+        right: 20,
+        bottom: 50,
+      ),
       child: Column(
         children: [
-          const SizedBox(height: TSizes.spaceBtwItems * 2.5),
           Text(
             title,
-            style: Theme.of(context).textTheme.headlineSmall,
-            textAlign: TextAlign.center,
-          ),
+              style: TextStyle(
+                fontFamily: 'Rhodium',
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                color: Colors.black,
+              ),
+              textAlign: TextAlign.center,
+            ),
           Image(
             width: THelperFunctions.screenWidth() * 0.6,
             height: THelperFunctions.screenHeight() * 0.6,
@@ -29,10 +38,14 @@ class OnBoardingPage extends StatelessWidget {
           ),
           Text(
             subtitle,
-            style: Theme.of(context).textTheme.bodyMedium,
+            style: TextStyle(
+                fontFamily: 'Roboto',
+                fontSize: 14,
+                fontWeight: FontWeight.w400,
+                color: Colors.black,
+              ),
             textAlign: TextAlign.center,
           ),
-          const SizedBox(height: TSizes.spaceBtwItems * 2.5),
         ],
       ),
     );

@@ -200,6 +200,7 @@ class Upper extends StatelessWidget {
                   Text(
                     "IMMERSE PH",
                     style: TextStyle(
+                      fontFamily: 'Righteous',
                       fontSize: 30,
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
@@ -209,7 +210,7 @@ class Upper extends StatelessWidget {
                   const SizedBox(height: 20),
             
                   Icon(
-                    Iconsax.magic_star,
+                    Iconsax.heart,
                     size: 50,
                     color: Colors.white,
                   ),
@@ -219,6 +220,7 @@ class Upper extends StatelessWidget {
                   Text(
                     "WELCOME JHAN VINCENT!",
                     style: TextStyle(
+                      fontFamily: 'Righteous',
                       fontSize: 20,
                       fontWeight: FontWeight.w400,
                       color: Colors.white,

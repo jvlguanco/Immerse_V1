@@ -1,7 +1,9 @@
 class TImages {
   static const String logo = 'assets/logo/LOGO.png';
 
-  static const String intro1 = 'assets/images/intro/Intro1.png';
+  static const String intro1 = 'assets/images/intro/onboarding1.png';
+  static const String intro2 = 'assets/images/intro/onboarding2.png';
+  static const String intro3 = 'assets/images/intro/onboarding3.png';
 
   static const String background = 'assets/images/background/dashboard_bg.png';
 

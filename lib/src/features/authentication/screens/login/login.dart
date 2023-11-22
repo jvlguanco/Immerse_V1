@@ -25,12 +25,22 @@ class LoginScreen extends StatelessWidget {
                 children: [
                   Text(
                     TText.appName,
-                    style: Theme.of(context).textTheme.headlineMedium,
+                    style: TextStyle(
+                      fontFamily: 'Righteous',
+                      fontSize: 32,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                    ),
                   ),
                   const SizedBox(height: TSizes.m),
                   Text(
                     TText.appSlogan,
-                    style: Theme.of(context).textTheme.bodyMedium,
+                    style: TextStyle(
+                      fontFamily: 'Roboto',
+                      fontSize: 14,
+                      fontWeight: FontWeight.w400,
+                      color: Colors.black,
+                    ),
                   ),
                   const SizedBox(height: TSizes.l),
                 ],
